@@ -152,7 +152,7 @@ public static class CustomBotCommands
 public static class FlickrAPI
 {
     // Инициализация клиента Flickr API с заданным ключом
-    private static readonly Flickr _flickr = new Flickr("780de9e2bba22e551706cf2916b418c7");
+    private static readonly Flickr _flickr = new Flickr("Вводим токен");
     private static readonly Random _random = new Random(); // Генератор случайных чисел
     
     // Асинхронный метод для получения списка URL изображений по запросу
@@ -188,7 +188,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        var bot = new Bot("7186032530:AAGe4mSLJPWmUWan4mogVINllC_yIG0YItw"); // Инициализация бота с токеном
+        var bot = new Bot("Вводим токен"); // Инициализация бота с токеном
         
         bot.CreateCommands(); // Создание команд бота
         bot.StartReceiving(); // Запуск получения обновлений
